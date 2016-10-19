@@ -1,0 +1,58 @@
+[
+	{
+		"key": "customer_id",
+		"label":"Customer ID",
+		"type": "text"
+	},
+	{
+		"key": "licence_key",
+		"label":"Licence Key",
+		"type": "text"
+	},
+	{
+		"key": "plugin_id",
+		"label":"Plugin ID",
+		"type": "text"
+	},
+	{
+		"key": "item_type",
+		"label":"Item Type",
+		"type": "text"
+	},
+	{
+		"key": "log_severity",
+		"label": "Log Severity",
+		"type": "dropdown",
+		"possibleValues": {
+			"0":"Debug",
+			"1":"Info"
+		},
+		"default":"0"
+	},
+	{
+		"key": "performance",
+		"label": "Performance",
+		"type": "dropdown",
+		"possibleValues": {
+			"0":"Load scripts from the Amazon content delivery network (CDN)",
+			"1":"Load scripts directly from Yoochoose server"
+		},
+		"default":"0"
+	},
+	{
+		"key": "overwrite_endpoint",
+		"label":"Custom ID",
+		"type": "text"
+
+	},
+	{
+		"key": "search_box",
+		"label": "Use the Yoochoose search box:",
+		"type": "dropdown",
+		"possibleValues": {
+			"0":"No",
+			"1":"Yes"
+		},
+		"default":"0"
+	}
+]
