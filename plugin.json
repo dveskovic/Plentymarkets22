@@ -1,8 +1,8 @@
 {
-      "name":"HelloWorld",
-      "description":"My first plugin",
-      "namespace":"HelloWorld",
-      "author":"Christian Moll",
+      "name":"Plentimarkets22",
+      "description":"Plugin for plentymarkets",
+      "namespace":"Plentimarkets22",
+      "author":"Dragan Veskovic",
       "type":"template",
-      "serviceProvider":"HelloWorld\\Providers\\HelloWorldServiceProvider"
+      "serviceProvider":"Plentimarkets22\\Providers\\Plentymarkets22ServiceProvider"
 }

@@ -1,5 +1,5 @@
 <?php
-namespace HelloWorld\Providers;
+namespace Plentymarkets22\Providers;
 
 use Plenty\Plugin\ServiceProvider;
 
@@ -7,7 +7,7 @@ use Plenty\Plugin\ServiceProvider;
  * Class HelloWorldServiceProvider
  * @package HelloWorld\Providers
  */
-class HelloWorldServiceProvider extends ServiceProvider
+class Plentymarkets22ServiceProvider extends ServiceProvider
 {
 
 	/**
@@ -15,6 +15,6 @@ class HelloWorldServiceProvider extends ServiceProvider
 	 */
 	public function register()
 	{
-		$this->getApplication()->register(HelloWorldRouteServiceProvider::class);
+		$this->getApplication()->register(Plentymarkets22RouteServiceProvider::class);
 	}
 }
