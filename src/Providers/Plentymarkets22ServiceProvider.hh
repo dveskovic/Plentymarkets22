@@ -1,4 +1,4 @@
-<?php declare(strict_types=1);
+<?hh // strict
 namespace Plentymarkets22\Providers;
 
 use Plenty\Plugin\ServiceProvider;
@@ -13,7 +13,7 @@ class Plentymarkets22ServiceProvider extends ServiceProvider
 	/**
 	 * Register the service provider.
 	 */
-	public function register()
+	public function register():void
 	{
 		$this->getApplication()->register(Plentymarkets22RouteServiceProvider::class);
 	}

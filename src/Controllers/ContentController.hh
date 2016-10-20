@@ -1,4 +1,5 @@
-<?php declare(strict_types=1);
+<?hh //strict
+
 namespace Plentymarkets22\Controllers;
 
 use Plenty\Plugin\Controller;
