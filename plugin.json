@@ -2,7 +2,7 @@
       "name":"Plentimarkets22",
       "description":"Plugin for plentymarkets",
       "namespace":"Plentimarkets22",
-      "author":"Dragan Veskovic",
+      "author":"Plentimarkets22",
       "type":"template",
       "serviceProvider":"Plentimarkets22\\Providers\\Plentymarkets22ServiceProvider"
 }
